@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> resultArray(vector<int>& nums) {
-        int n = nums.size(),i=0,j=0,k=2;
+        int n = nums.size(),k=2;
         if(n<=2)
             return nums;
         vector<int> arr1;
