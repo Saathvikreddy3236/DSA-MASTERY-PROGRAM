@@ -8,7 +8,6 @@ public:
         for (int len = l; len <= r; len++) {
             int sum = 0;
 
-            // Calculate first window
             for (int i = 0; i < len; i++) {
                 sum += nums[i];
             }
